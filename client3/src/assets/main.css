@@ -1,0 +1,51 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+@font-face {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body, #app, .ant-table-wrapper * {
+  font-family: 'Nunito', sans-serif;
+}
+
+#app {
+  min-width: 1560px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: start;
+    padding: 2rem 1rem;
+    background: #f0f2f5;
+  }
+
+  #app {
+    display: grid;
+    padding: 0 2rem;
+  }
+}

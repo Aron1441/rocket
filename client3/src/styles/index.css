@@ -1,0 +1,88 @@
+
+.contact-name {
+    padding-left: 10px;
+}
+.contacts-box {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    height: 50px;
+}
+.contacts-list {
+    display: flex;
+    margin: 0;
+    padding-left: 10px;
+}
+.ant-card {
+    line-height: 22px;
+    margin: 0 auto;
+    max-width: 1560px;
+}
+.ant-table-title {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-table-container {
+    padding: 24px;
+    border-radius: 0 0 8px 8px;
+}
+
+.ant-table-thead > tr > th:first-child  {
+    border-top-left-radius: 10px !important;
+}
+
+.ant-table-thead > tr > th:last-child  {
+    border-top-right-radius: 10px !important;
+}
+
+.row-rounded td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.row-rounded td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.ant-table-wrapper table {
+    border-radius: 15px;
+}
+.ant-table-title {
+    align-items: center;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+
+.ant-table-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ant-table-cell > .ant-avatar {
+    margin-right: 8px;
+    background-color: rgb(24, 144, 255);
+}
+
+.ant-popover-inner {
+    height: 30px;
+    padding: 0;
+}
+
+.ant-table-row {
+    height: 56px;
+}
+
+.search {
+    margin-left: auto;
+}
+
+.search > span {
+    display: inline-flex;
+    vertical-align: -webkit-baseline-middle;
+    padding-right: 5px;
+}
+
+.search > span:hover {
+    cursor: pointer;
+}
